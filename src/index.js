@@ -11,6 +11,7 @@ dotenv.config({
 })
 
 
+
 connectDB()
 .then(() =>{
     app.on("error", (error) => {
@@ -22,11 +23,7 @@ connectDB()
 })
 .catch((err) =>{
     console.log("MONGO db connection failed !!! ", err);
-})
-
-
-
-
+});
 
 
 
