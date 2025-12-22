@@ -1,6 +1,5 @@
 //require('dotenv').config({path: './env'}) is se better approach hai is approach ko use karne se code ke consistency bigaad the hai...
 import dotenv from "dotenv";
-
 import mongoose, { connect } from "mongoose";
 import { DB_name } from "./constants.js";
 import connectDB from "./db/index.js";
